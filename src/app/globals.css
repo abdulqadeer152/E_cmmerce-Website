@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headerSecond{
+  border-bottom: 2px solid black;
+}
+
+
