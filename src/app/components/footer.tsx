@@ -9,17 +9,17 @@ const Footer = () => {
     <div className="w-full bg-[#E7E4F8]">
       <footer className="w-full bg-[#F9F8FE] text-[#1A0B5B] py-8 md:py-16">
         <div className="container mx-auto px-4 max-w-7xl">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
             {/* Column 1 - Logo and Contact Info */}
             <div className="space-y-4">
               <h1 className="text-2xl md:text-3xl font-bold">Hekto</h1>
-              <div className="flex flex-col sm:flex-row gap-2">
+              <div className="flex flex-col sm:flex-row w-[300px] h-[44px]">
                 <input
                   type="email"
                   placeholder="Enter Email Address"
-                  className="flex-1 h-10 px-4 border rounded-l-md sm:max-w-[250px]"
+                  className="flex-1 h-10 px-4 border w-[156] rounded-l-md sm:max-w-[250px]"
                 />
-                <button className="bg-[#FB2E86] text-white h-10 px-4 rounded-md sm:rounded-l-none hover:bg-[#e1196d] transition-colors">
+                <button className="bg-[#FB2E86] text-white h-10 w-[125px] px-4 rounded-md sm:rounded-l-none hover:bg-[#e1196d] transition-colors">
                   Sign Up
                 </button>
               </div>

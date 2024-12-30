@@ -2,6 +2,7 @@
 
 import { SearchIcon } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { FaFacebook, FaInstagram, FaPenNib, FaTwitter } from "react-icons/fa";
 import { SlCalender } from "react-icons/sl";
@@ -53,9 +54,10 @@ const Page = () => {
                   eu malesuada vitae ultrices in in neque, porta dignissim.
                   Adipiscing purus, cursus vulputate id id dictum at.
                 </p>
-                <button className="text-[#151875] font-bold mt-6 hover:text-[#FB2E86] transition-colors">
+              <Link href={"/singleblog"}>  <button className="text-[#151875] font-bold mt-6 hover:text-[#FB2E86] transition-colors">
                   Read More
                 </button>
+                </Link>
               </div>
             ))}
 
