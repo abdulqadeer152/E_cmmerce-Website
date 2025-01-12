@@ -28,8 +28,10 @@ const Page = () => {
             <div className="w-full">
               <Image
                 alt="image"
-                src={require("../../../public/bruce-mars-FWVMhUa_wbY-unsplash 2.png")}
+                src={"/bruce-mars-FWVMhUa_wbY-unsplash 2.png"}
                 className="w-full h-auto"
+                width={500}
+                height={500}
               />
             </div>
 
@@ -69,13 +71,17 @@ const Page = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <Image
                   alt="video"
-                  src={require("../../../public/Group 92.png")}
+                  src={"/Group 92.png"}
                   className="w-full h-auto"
+                  width={500}
+                height={500}
                 />
                 <Image
                   alt="e"
-                  src={require("../../../public/Rectangle 70.png")}
+                  src={"/Rectangle 70.png"}
                   className="w-full h-auto"
+                  width={500}
+                  height={500}
                 />
               </div>
 
@@ -85,8 +91,10 @@ const Page = () => {
                   <div key={index} className="space-y-2">
                     <Image
                       alt="sofa"
-                      src={require(`../../../public/Rectangle 63${index ? ` (${index})` : ''}.png`)}
+                      src={`/Rectangle 63${index ? ` (${index})` : ''}.png`}
                       className="w-full h-auto"
+                      width={500}
+                height={500}
                     />
                     <p className="font-bold text-center">Quam sed</p>
                     <div className="flex justify-between items-center">
@@ -177,8 +185,10 @@ const Page = () => {
                 <div key={index} className="flex gap-4">
                   <Image
                     alt="recent post"
-                    src={require(`../../../public/Rectangle 126.png`)}
+                    src={`/Rectangle 126.png`}
                     className="w-20 h-auto"
+                    width={500}
+                height={500}
                   />
                   <div>
                     <h3 className="text-[#151875]">It is a long established fact</h3>
@@ -196,9 +206,11 @@ const Page = () => {
               {[...Array(4)].map((_, index) => (
                 <div key={index} className="text-center">
                   <Image
-                    src={require(`../../../public/Mask Group${index ? ` (${index})` : ''}.png`)}
+                    src={`/Mask Group${index ? ` (${index})` : ''}.png`}
                     alt={`Product ${index + 1}`}
                     className="w-full h-auto object-cover rounded-md"
+                    width={500}
+                height={500}
                   />
                   <p className="text-blue-800 mt-2">Product Name</p>
                   <p className="text-gray-600">$12.00 - $15.00</p>
@@ -228,8 +240,10 @@ const Page = () => {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <Image
           alt="logos"
-          src={require("../../../public/image 1174.png")}
+          src={"/image 1174.png"}
           className="w-full h-auto"
+          width={500}
+                height={500}
         />
       </div>
     </div>

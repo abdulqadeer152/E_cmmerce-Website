@@ -21,9 +21,15 @@ const DiscountProduct = () => {
         {/* Navigation Tabs */}
         <div className="mb-8 md:mb-12">
           <ul className="flex flex-wrap justify-center gap-4 font-bold text-sm md:text-base">
-            <li className="text-[#FB2E86] underline cursor-pointer">Wood Chair</li>
-            <li className="cursor-pointer hover:text-[#FB2E86] transition-colors">Plastic Chair</li>
-            <li className="cursor-pointer hover:text-[#FB2E86] transition-colors">Sofa Collection</li>
+            <li className="text-[#FB2E86] underline cursor-pointer">
+              Wood Chair
+            </li>
+            <li className="cursor-pointer hover:text-[#FB2E86] transition-colors">
+              Plastic Chair
+            </li>
+            <li className="cursor-pointer hover:text-[#FB2E86] transition-colors">
+              Sofa Collection
+            </li>
           </ul>
         </div>
 
@@ -38,14 +44,17 @@ const DiscountProduct = () => {
               Eams Sofa Compact
             </h3>
             <p className="text-[#B7BACB] font-bold mb-6 max-w-xl mx-auto lg:mx-0">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Eu eget feugiat habitasse nec, bibendum condimentum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget
+              feugiat habitasse nec, bibendum condimentum.
             </p>
 
             {/* Features Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 max-w-xl mx-auto lg:mx-0">
               {features.map((feature, index) => (
-                <div key={index} className="flex items-center gap-2 text-[#B7BACB] font-bold">
+                <div
+                  key={index}
+                  className="flex items-center gap-2 text-[#B7BACB] font-bold"
+                >
                   <FaCheck className="text-[#7569B2] flex-shrink-0" />
                   <span className="text-sm md:text-base">{feature}</span>
                 </div>
@@ -62,7 +71,7 @@ const DiscountProduct = () => {
             <div className="relative w-full aspect-square max-w-[600px] mx-auto">
               <Image
                 alt="discount-chair"
-                src={require("../../../public/tortuga-01-b 1.png")}
+                src="/tortuga-01-b 1.png" // Correct path for an image in the public folder
                 layout="fill"
                 objectFit="contain"
                 priority

@@ -1,15 +1,15 @@
 "use client";
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 const Bg_photo = () => {
   return (
     <div className="w-full">
       {/* Background Image Section */}
       <div className="relative w-full h-[300px] md:h-[462px]">
-        <Image 
-          alt="bg-image" 
-          src={require("../../../public/Rectangle 102.png")}
+        <Image
+          alt="bg-image"
+          src="/Rectangle 102.png"
           className="w-full h-full object-cover"
           layout="fill"
           priority
@@ -27,9 +27,9 @@ const Bg_photo = () => {
       {/* Logos Section */}
       <div className="w-full py-8 px-4 flex justify-center">
         <div className="relative w-full max-w-[904px] h-[50px] md:h-[93px]">
-          <Image 
-            alt="logos" 
-            src={require("../../../public/image 1174.png")}
+          <Image
+            alt="logos"
+            src="/image 1174.png" // Path relative to the public folder
             layout="fill"
             objectFit="contain"
           />
